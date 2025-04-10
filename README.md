@@ -1,2 +1,2 @@
 # atlassian-util
-Simple Sample data creator for Jira and Confluence 
+Simple Sample data generator for Jira and Confluence 
