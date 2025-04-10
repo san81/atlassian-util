@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.springframework:spring-web:5.3.28")
+    implementation 'org.apache.commons:commons-lang3:3.17.0'
+    implementation 'org.jsoup:jsoup:1.17.2'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.15.3'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.3'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.15.3'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.15.3'
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}

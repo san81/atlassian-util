@@ -45,7 +45,7 @@ public class ConfluencePageCreator {
             }
 
         } catch (Exception e) {
-            System.err.println("Error creating page: " + e.getMessage());
+            System.out.println("Error creating page: " + e.getMessage());
         }
     }
 

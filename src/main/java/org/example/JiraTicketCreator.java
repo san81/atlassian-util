@@ -46,7 +46,7 @@ public class JiraTicketCreator {
             }
 
         } catch (Exception e) {
-            System.err.println("Error creating ticket: " + e.getMessage());
+            System.out.println("Error creating ticket: " + e.getMessage());
         }
     }
 
